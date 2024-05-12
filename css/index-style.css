@@ -1,0 +1,23 @@
+.about-section {
+    
+    border-top: solid 1px gray ;
+    
+}
+.card {
+    color: white;
+    border-radius: 1rem;
+    border: 1px solid transparent;
+    backdrop-filter: blur(1px);
+    box-shadow: 1.3rem 1.3rem 1rem rgba(0, 0, 0, 0.5);
+    border-top-color: rgba(225, 225, 225, 0.5);
+    border-bottom-color: rgba(225, 225, 225, 0.1);
+    border-right-color: rgba(225, 225, 225, 0.1);
+    border-left-color: rgba(225, 225, 225, 0.5);
+}
+.cb1{
+    background-color: rgba(225, 225, 225, 0.1);
+}
+.cardser:hover{
+    transform: rotatey(20deg);
+
+}

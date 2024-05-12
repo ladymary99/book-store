@@ -1,0 +1,40 @@
+.card{
+    padding: 10px 10px;
+    backdrop-filter: blur(6px);
+    border-radius: 20px;
+    border: 2px solid #ffffff7e;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.06);
+    box-shadow: 20px 20px 22px rgb(0, 0, 0 /20%);
+}
+.carditeam{
+    background-image: url(bg-section.jpg);
+}
+.image{
+   /*  width: 100px;
+    height: 110px; */
+    margin: auto;
+    background: linear-gradient(93deg, #6d00e1, #270c8a);
+    transform: translateY(-52px);
+    box-shadow: #570606db 0px 28px 71px 8px;
+}
+.btn{
+    outline: none;
+    display: flow-root;
+    width: fit-content;
+    margin: auto;
+    padding: 10px 20px;
+    color: #fff;
+    border: 2px solid #ffffff7e;
+    border-radius: 50px;
+}
+.btn:hover{
+    color: #fff;
+    outline: none;
+}
+.btn1:hover{
+    border: 0px !important;
+    background: linear-gradient(93deg, #831c1c, #53090998);
+    box-shadow: #570606db 0px 28px 71px 8px;
+
+}

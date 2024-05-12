@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+          rel="stylesheet" 
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+          crossorigin="anonymous">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+          <link rel="icon" href="images/icon.gif">
+          <link rel="stylesheet" href="css/style-about.css">
+    <title>BOOK STORE</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <!--Icon-->
+          <a class="navbar-brand h1" href="#">
+            <script src="https://cdn.lordicon.com/lordicon.js"></script>
+            <lord-icon
+                class="d-none d-sm-inline-block"
+                src="https://cdn.lordicon.com/lenjvibx.json"
+                trigger="hover"
+                colors="primary:#e4e4e4,secondary:#c71f16"
+                style="width:60px;height:60px">
+            </lord-icon>BOOK STORE</a>
+          <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation"
+          >
+            <span ><script src="https://cdn.lordicon.com/lordicon.js"></script>
+                <lord-icon
+                    src="https://cdn.lordicon.com/lenjvibx.json"
+                    trigger="hover"
+                    colors="primary:#e4e4e4,secondary:#c71f16"
+                    style="width:50px;height:50px">
+                </lord-icon></span>
+          </button>
+          <!-- NAVBAR items -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="About.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- section about -->
+      <section class="bg-dark text-light p-4 mt-3">
+        <div class="container">
+            <div class="text-center align-items-center d-sm-flex ">
+                <div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                    <h2>'Information about authors and books'</h2>
+                    <p>Author from all over the world who 
+                        are famous for the strange and scary 
+                        thoughts and their books. authors who 
+                        are famous for creating a strange and 
+                        scary world.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Introduction the Authors and img  -->
+      </section>
+      <section class="bg-dark text-light p-4">
+        <div class="container">
+            <h3 class="text-center pb-5">
+                Introduction the Authors
+            </h3>
+            <!-- carousel item -->
+            <div id="carouselExampleCaptions" class="carousel slide" data-mdb-ride="carousel">
+                <div class="carousel-inner align-items-center">
+                  <div class="carousel-item active text-center">
+                    <img src="images/Franz_Kafka.jpg" style="width: 300px" alt="...">
+                    <h5 class="p-2">Franz Kafka</h5>
+                      <p>German Novelist and writer</p>
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="images/fyodor-dostoevsky.webp" style="width: 320px"  alt="...">
+                    <h5 class="p-2">Fyodor Dostoevsky</h5>
+                      <p>Russian novelist</p>
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="images/HP-Lovecraft.webp" style="width: 290px" alt="...">
+                    <h5 class="p-2">HP Lovecraft</h5>
+                      <p>American writer</p>
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="images/Osamu_Dazai.jpg" style="width: 277px"  alt="...">
+                    <h5 class="p-2">Osamu Dazai</h5>
+                      <p>Japanese novelist and author</p>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+      </section>
+      <!-- card item -->
+      <section class="bg-dark carditeam p-5">
+        <div class="container">
+            <h3 class="text-center p-3 text-light">Books</h3>
+            <div class="row">
+                <div class="col-md-4 mt-5">
+                    <div class="card">
+                        <div class="image">
+                            <img src="images/alittle-fable.jpg" alt="" style="width: 200px; height: 230px;">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title text-center">a little fable</h4>
+                            <p class="card-text">
+                                A Little Fable" is a short story written by Franz Kafka between 1917 and 1923, likely in 1920.
+                            </p>
+                            <a href="" class="btn btn1">Buy now!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-5">
+                    <div class="card">
+                        <div class="image">
+                            <img src="images/no-longer-human (1).jpg" alt="" style="width: 200px; height: 230px;">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title text-center">no longer human</h4>
+                            <p class="card-text">
+                                It tells the story of a troubled man incapable of revealing his true self to others...
+                            </p>
+                            <a href="" class="btn btn1">Buy now!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-5">
+                    <div class="card">
+                        <div class="image">
+                            <img src="images/callofcthulhu.jpg" alt="" style="width: 200px; height: 230px;">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title text-center">call of cthulhu</h4>
+                            <p class="card-text">
+                                is a short story by American writer H. P. Lovecraft. Written in the summer of 1926, it was first published..
+                            </p>
+                            <a href="" class="btn btn1">Buy now!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-4 mt-5">
+                    <div class="card">
+                        <div class="image">
+                            <img src="images/the-metamorphosis.jpg" alt="" style="width: 200px; height: 230px;">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title text-center">The metamorphosis</h4>
+                            <p class="card-text">
+                                One of Kafka's best-known works, Metamorphosis tells the story of salesman Gregor Samsa.. 
+                            </p>
+                            <a href="" class="btn btn1">Buy now!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-5">
+                    <div class="card">
+                        <div class="image">
+                            <img src="images/the-double.jpg" alt="" style="width: 200px; height: 230px;">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title text-center">The double</h4>
+                            <p class="card-text">
+                                The Double: A Petersburg Poem is a novel written by Fyodor Dostoevsky. It was first published...
+                            </p>
+                            <a href="" class="btn btn1">Buy now!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-5">
+                    <div class="card">
+                        <div class="image">
+                            <img src="images/Crimeandpunishment.jpg" alt="" style="width: 200px; height: 230px;">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title text-center">Crime and punishment</h4>
+                            <p class="card-text">
+                                Crime and Punishment is a novel by the Russian author Fyodor Dostoevsky. It was first 
+                            </p>
+                            <a href="" class="btn btn1">Buy now!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <div class="card-footer text-center p-5 bg-light">
+        <p><img src="images/copyright.png" style="width: 30px;" alt="">2024 BOOK STORE Collection of human horro books.</p>
+        <p><script src="https://cdn.lordicon.com/lordicon.js"></script>
+            <lord-icon
+                src="https://cdn.lordicon.com/kthelypq.json"
+                trigger="hover"
+                style="width:30px;height:30px">
+            </lord-icon>Contact Us: info@orrorbookstore.com</p>
+            <h1><i class="bi bi-github"></i> <i class="bi bi-instagram"></i></h1>
+      </div>
+    <!-- Bootstrap JS (Make sure to include it at the end of the body) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+            crossorigin="anonymous">
+    </script>
+</body>
+</html>
